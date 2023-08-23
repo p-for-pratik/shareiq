@@ -1,0 +1,123 @@
+#title{
+background-color: #D0B8A8;
+color: white;
+
+}
+.container-fluid{
+    padding: 3% 12%     ;
+}
+body{
+    font-family: comic sans ms;
+    margin-bottom: 0;
+}
+#title-img{
+width: 40%;
+border-radius: 10%;
+/* transform: rotate(30deg); */
+position: absolute;
+margin-right: 30%;
+
+}
+.navbar-brand{
+    font-size: 2rem;
+}
+.download-btn{
+    margin: 8% 7% 10% 0;
+}
+nav{
+   margin-bottom: 5%;
+}
+h1{
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+#features{
+    padding: 5% 8%;
+    background-color: #fff;
+    position: relative;
+    z-index: 1;
+}
+.f-box{
+    text-align: center;
+    padding: 5%;
+}
+h2{
+    font-weight: bold;
+}
+h3{
+    
+    font-weight: bold;
+   
+}
+p{
+    color: #8f8f8f;
+}
+.icons{
+    color: #bc7d7d;
+    padding-bottom: 1rem;
+}
+.icons:hover{
+    color: #D0B8A8;
+}
+#testimonials{
+    text-align: center;
+    background-color: #bc7d7d;
+    
+    color: white;
+}
+.testimonials-img{
+   width: 15%;
+   border-radius: 100%; 
+}
+#press{
+    text-align: center;
+    background-color: #bc7d7d;
+}
+.press-img{
+    width: 20%;
+    padding: 2% 6%;
+   
+}
+#pricing{
+    text-align: center;
+    padding: 5% 3%;
+}
+.price{
+
+    padding: 5% 3%;
+}
+header{padding: auto;
+    background-color: #bc7d7d;
+}
+@media (max-width:1040px){
+    #title{
+        text-align: center;
+    }
+    #title-img{
+        width: 80%;
+        border-radius: 10%;
+        /* transform: rotate(0deg); */
+        margin-right: 0%;
+        position: static;
+        
+        }
+}
+#cta{
+  
+text-align: center;
+background-color: rgb(118, 157, 197);
+margin: 0rem;
+}
+.cta{
+    margin: 0%;
+    padding: 3%;
+    color: #fff;
+}
+#footer{
+    text-align: center;
+    background-color: rgb(73, 121, 169);
+    margin: 0%;
+}
+.carousel-item{
+    padding: 5% 11%;
+}
